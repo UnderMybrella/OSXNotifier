@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8479A8601CB154AB00336A42 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8479A85F1CB154AB00336A42 /* Application.xib */; };
+		8479A8631CB15AC600336A42 /* NSString+URLDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479A8621CB15AC600336A42 /* NSString+URLDecode.m */; };
+		84D724381CB1332700AA45D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724371CB1332700AA45D6 /* AppDelegate.m */; };
+		84D7243B1CB1332700AA45D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7243A1CB1332700AA45D6 /* main.m */; };
+		84D7243D1CB1332700AA45D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7243C1CB1332700AA45D6 /* Assets.xcassets */; };
+		84D724671CB1335C00AA45D6 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724481CB1335C00AA45D6 /* GCDWebServer.m */; };
+		84D724681CB1335C00AA45D6 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7244A1CB1335C00AA45D6 /* GCDWebServerConnection.m */; };
+		84D724691CB1335C00AA45D6 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7244C1CB1335C00AA45D6 /* GCDWebServerFunctions.m */; };
+		84D7246A1CB1335C00AA45D6 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724501CB1335C00AA45D6 /* GCDWebServerRequest.m */; };
+		84D7246B1CB1335C00AA45D6 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724521CB1335C00AA45D6 /* GCDWebServerResponse.m */; };
+		84D7246C1CB1335C00AA45D6 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724551CB1335C00AA45D6 /* GCDWebServerDataRequest.m */; };
+		84D7246D1CB1335C00AA45D6 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724571CB1335C00AA45D6 /* GCDWebServerFileRequest.m */; };
+		84D7246E1CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724591CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.m */; };
+		84D7246F1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7245B1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.m */; };
+		84D724701CB1335C00AA45D6 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7245E1CB1335C00AA45D6 /* GCDWebServerDataResponse.m */; };
+		84D724711CB1335C00AA45D6 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724601CB1335C00AA45D6 /* GCDWebServerErrorResponse.m */; };
+		84D724721CB1335C00AA45D6 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724621CB1335C00AA45D6 /* GCDWebServerFileResponse.m */; };
+		84D724731CB1335C00AA45D6 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D724641CB1335C00AA45D6 /* GCDWebServerStreamedResponse.m */; };
+		84D724751CB1362E00AA45D6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D724741CB1362E00AA45D6 /* libz.tbd */; };
+		84D7247E1CB141C200AA45D6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D7247D1CB141C200AA45D6 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8479A85F1CB154AB00336A42 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		8479A8611CB15AC600336A42 /* NSString+URLDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLDecode.h"; sourceTree = "<group>"; };
+		8479A8621CB15AC600336A42 /* NSString+URLDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLDecode.m"; sourceTree = "<group>"; };
+		84D724331CB1332700AA45D6 /* MacOSXNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSXNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D724361CB1332700AA45D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D724371CB1332700AA45D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D7243A1CB1332700AA45D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D7243C1CB1332700AA45D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D724411CB1332700AA45D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D724471CB1335C00AA45D6 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		84D724481CB1335C00AA45D6 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		84D724491CB1335C00AA45D6 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		84D7244A1CB1335C00AA45D6 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		84D7244B1CB1335C00AA45D6 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		84D7244C1CB1335C00AA45D6 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		84D7244D1CB1335C00AA45D6 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		84D7244E1CB1335C00AA45D6 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		84D7244F1CB1335C00AA45D6 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		84D724501CB1335C00AA45D6 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		84D724511CB1335C00AA45D6 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		84D724521CB1335C00AA45D6 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		84D724541CB1335C00AA45D6 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		84D724551CB1335C00AA45D6 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		84D724561CB1335C00AA45D6 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		84D724571CB1335C00AA45D6 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		84D724581CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		84D724591CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		84D7245A1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		84D7245B1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		84D7245D1CB1335C00AA45D6 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		84D7245E1CB1335C00AA45D6 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		84D7245F1CB1335C00AA45D6 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		84D724601CB1335C00AA45D6 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		84D724611CB1335C00AA45D6 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		84D724621CB1335C00AA45D6 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		84D724631CB1335C00AA45D6 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		84D724641CB1335C00AA45D6 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		84D724741CB1362E00AA45D6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		84D7247D1CB141C200AA45D6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D724301CB1332700AA45D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7247E1CB141C200AA45D6 /* AppKit.framework in Frameworks */,
+				84D724751CB1362E00AA45D6 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D7242A1CB1332700AA45D6 = {
+			isa = PBXGroup;
+			children = (
+				84D7247D1CB141C200AA45D6 /* AppKit.framework */,
+				84D724741CB1362E00AA45D6 /* libz.tbd */,
+				84D724351CB1332700AA45D6 /* MacOSXNotifier */,
+				84D724341CB1332700AA45D6 /* Products */,
+				84D724661CB1335C00AA45D6 /* GCDWebServer */,
+			);
+			sourceTree = "<group>";
+		};
+		84D724341CB1332700AA45D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D724331CB1332700AA45D6 /* MacOSXNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D724351CB1332700AA45D6 /* MacOSXNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				84D724361CB1332700AA45D6 /* AppDelegate.h */,
+				84D724371CB1332700AA45D6 /* AppDelegate.m */,
+				84D7243C1CB1332700AA45D6 /* Assets.xcassets */,
+				84D724411CB1332700AA45D6 /* Info.plist */,
+				84D724391CB1332700AA45D6 /* Supporting Files */,
+				8479A85F1CB154AB00336A42 /* Application.xib */,
+				8479A8611CB15AC600336A42 /* NSString+URLDecode.h */,
+				8479A8621CB15AC600336A42 /* NSString+URLDecode.m */,
+			);
+			path = MacOSXNotifier;
+			sourceTree = "<group>";
+		};
+		84D724391CB1332700AA45D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D7243A1CB1332700AA45D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D724531CB1335C00AA45D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84D724471CB1335C00AA45D6 /* GCDWebServer.h */,
+				84D724481CB1335C00AA45D6 /* GCDWebServer.m */,
+				84D724491CB1335C00AA45D6 /* GCDWebServerConnection.h */,
+				84D7244A1CB1335C00AA45D6 /* GCDWebServerConnection.m */,
+				84D7244B1CB1335C00AA45D6 /* GCDWebServerFunctions.h */,
+				84D7244C1CB1335C00AA45D6 /* GCDWebServerFunctions.m */,
+				84D7244D1CB1335C00AA45D6 /* GCDWebServerHTTPStatusCodes.h */,
+				84D7244E1CB1335C00AA45D6 /* GCDWebServerPrivate.h */,
+				84D7244F1CB1335C00AA45D6 /* GCDWebServerRequest.h */,
+				84D724501CB1335C00AA45D6 /* GCDWebServerRequest.m */,
+				84D724511CB1335C00AA45D6 /* GCDWebServerResponse.h */,
+				84D724521CB1335C00AA45D6 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		84D7245C1CB1335C00AA45D6 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				84D724541CB1335C00AA45D6 /* GCDWebServerDataRequest.h */,
+				84D724551CB1335C00AA45D6 /* GCDWebServerDataRequest.m */,
+				84D724561CB1335C00AA45D6 /* GCDWebServerFileRequest.h */,
+				84D724571CB1335C00AA45D6 /* GCDWebServerFileRequest.m */,
+				84D724581CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.h */,
+				84D724591CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.m */,
+				84D7245A1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.h */,
+				84D7245B1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		84D724651CB1335C00AA45D6 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				84D7245D1CB1335C00AA45D6 /* GCDWebServerDataResponse.h */,
+				84D7245E1CB1335C00AA45D6 /* GCDWebServerDataResponse.m */,
+				84D7245F1CB1335C00AA45D6 /* GCDWebServerErrorResponse.h */,
+				84D724601CB1335C00AA45D6 /* GCDWebServerErrorResponse.m */,
+				84D724611CB1335C00AA45D6 /* GCDWebServerFileResponse.h */,
+				84D724621CB1335C00AA45D6 /* GCDWebServerFileResponse.m */,
+				84D724631CB1335C00AA45D6 /* GCDWebServerStreamedResponse.h */,
+				84D724641CB1335C00AA45D6 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		84D724661CB1335C00AA45D6 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				84D724531CB1335C00AA45D6 /* Core */,
+				84D7245C1CB1335C00AA45D6 /* Requests */,
+				84D724651CB1335C00AA45D6 /* Responses */,
+			);
+			name = GCDWebServer;
+			path = "../../Downloads/GCDWebServer-3.3.2/GCDWebServer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D724321CB1332700AA45D6 /* MacOSXNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D724441CB1332700AA45D6 /* Build configuration list for PBXNativeTarget "MacOSXNotifier" */;
+			buildPhases = (
+				84D7242F1CB1332700AA45D6 /* Sources */,
+				84D724301CB1332700AA45D6 /* Frameworks */,
+				84D724311CB1332700AA45D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSXNotifier;
+			productName = MacOSXNotifier;
+			productReference = 84D724331CB1332700AA45D6 /* MacOSXNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D7242B1CB1332700AA45D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Isaac H.";
+				TargetAttributes = {
+					84D724321CB1332700AA45D6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9WBL84XBYP;
+					};
+				};
+			};
+			buildConfigurationList = 84D7242E1CB1332700AA45D6 /* Build configuration list for PBXProject "MacOSXNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D7242A1CB1332700AA45D6;
+			productRefGroup = 84D724341CB1332700AA45D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D724321CB1332700AA45D6 /* MacOSXNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D724311CB1332700AA45D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8479A8601CB154AB00336A42 /* Application.xib in Resources */,
+				84D7243D1CB1332700AA45D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D7242F1CB1332700AA45D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7243B1CB1332700AA45D6 /* main.m in Sources */,
+				84D724691CB1335C00AA45D6 /* GCDWebServerFunctions.m in Sources */,
+				84D7246C1CB1335C00AA45D6 /* GCDWebServerDataRequest.m in Sources */,
+				84D724731CB1335C00AA45D6 /* GCDWebServerStreamedResponse.m in Sources */,
+				84D724721CB1335C00AA45D6 /* GCDWebServerFileResponse.m in Sources */,
+				84D724381CB1332700AA45D6 /* AppDelegate.m in Sources */,
+				84D7246F1CB1335C00AA45D6 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				84D724681CB1335C00AA45D6 /* GCDWebServerConnection.m in Sources */,
+				84D7246D1CB1335C00AA45D6 /* GCDWebServerFileRequest.m in Sources */,
+				8479A8631CB15AC600336A42 /* NSString+URLDecode.m in Sources */,
+				84D7246B1CB1335C00AA45D6 /* GCDWebServerResponse.m in Sources */,
+				84D7246A1CB1335C00AA45D6 /* GCDWebServerRequest.m in Sources */,
+				84D724711CB1335C00AA45D6 /* GCDWebServerErrorResponse.m in Sources */,
+				84D724701CB1335C00AA45D6 /* GCDWebServerDataResponse.m in Sources */,
+				84D724671CB1335C00AA45D6 /* GCDWebServer.m in Sources */,
+				84D7246E1CB1335C00AA45D6 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84D724421CB1332700AA45D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84D724431CB1332700AA45D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84D724451CB1332700AA45D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSXNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.abimon.osx.MacOSXNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D724461CB1332700AA45D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSXNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.abimon.osx.MacOSXNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D7242E1CB1332700AA45D6 /* Build configuration list for PBXProject "MacOSXNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D724421CB1332700AA45D6 /* Debug */,
+				84D724431CB1332700AA45D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D724441CB1332700AA45D6 /* Build configuration list for PBXNativeTarget "MacOSXNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D724451CB1332700AA45D6 /* Debug */,
+				84D724461CB1332700AA45D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D7242B1CB1332700AA45D6 /* Project object */;
+}

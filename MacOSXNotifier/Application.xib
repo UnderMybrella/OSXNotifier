@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Cnx-c6-gZe" id="hhC-hX-35Z"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Cnx-c6-gZe" customClass="AppDelegate">
+            <connections>
+                <outlet property="menulet" destination="ADr-S5-vKw" id="zci-V4-GsZ"/>
+            </connections>
+        </customObject>
+        <menu id="ADr-S5-vKw">
+            <items>
+                <menuItem title="Quit" keyEquivalent="q" id="KHZ-DR-LpA">
+                    <connections>
+                        <action selector="terminate:" target="-2" id="mwv-gN-c9y"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="889.5" y="598.5"/>
+        </menu>
+    </objects>
+</document>
