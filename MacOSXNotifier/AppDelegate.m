@@ -61,6 +61,10 @@
                                      if([object isEqual:@"url"]){
                                          [dict setObject:value forKey:@"url"];
                                      }
+                                     if([object isEqualToString:@"iconurl"]){
+                                        [notification setValue:[[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:value]] forKey:@"_identityImage"];
+                                     }
+                                     
                                  }
                                  notification.userInfo = dict;
                                  notification.soundName = NSUserNotificationDefaultSoundName;
