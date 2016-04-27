@@ -52,7 +52,7 @@
                                      if([object isEqual:@"name"]){
                                          notification.title = value;
                                      }
-                                     if([object isEqual:@"location"]){
+                                     if([object isEqual:@"subtitle"] || [object isEqualToString:@"location"]){
                                          notification.subtitle = value;
                                      }
                                      if([object isEqual:@"desc"]){
